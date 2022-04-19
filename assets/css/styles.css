@@ -1,9 +1,16 @@
 .img-block {
     display: flex;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-title__text{
 
     color: red;
+}
+
+#beach{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
