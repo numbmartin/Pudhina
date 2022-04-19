@@ -6,7 +6,7 @@ sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/pudhina.jpg' | prepend: site.baseurl }}" id="about-img">
+<img src="{{ '/assets/img/beach.jpg' | prepend: site.baseurl }}" id="beach">
 
 <div id="describe-text">
 	<p>I am a happy Corgi living with Xinyi since 2019</p>
