@@ -1,6 +1,6 @@
 .img-block {
     display: flex;
-    align-items: center;
+    align-content: center;
 }
 
 .page-title__text{
