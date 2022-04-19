@@ -6,7 +6,7 @@ sitemap:
   priority: 0.9
 ---
 
-<div class="img">
+<div class="img-block">
 	<img src="{{ '/assets/img/beach.jpg' | prepend: site.baseurl }}" id="beach">
     
 </div>
