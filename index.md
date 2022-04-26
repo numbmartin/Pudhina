@@ -7,7 +7,7 @@ sitemap:
 ---
 
 <div class="img-block">
-	<img src="{{ '/assets/img/beach.jpg' | prepend: site.baseurl }}" id="beach">
+	<img src="{{ '/assets/img/sofa.jpg' | prepend: site.baseurl }}" id="beach">
     
 </div>
 
