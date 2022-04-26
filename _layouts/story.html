@@ -7,5 +7,27 @@ layout: default
 {{ content }}
 
 
+{% for block in site.data.mystory.content %}
+
+<div class="story">
+    <div class="card">
+        <div class="img">
+            <img src="{{block.image}}" alt="{{block.image-alt}}">
+        </div>
+
+        <div class="copy">
+            <h3 class="title">{{block.title}}</h3>
+            <h4 class="date">{{block.date}}</h4>
+            <p class="story-copy">{{block.story-copy}}</p>
+
+        </div>
+
+
+    </div>
+</div>
+
+{% endfor %}
+
+
 
 {% include page/follow.html %}
